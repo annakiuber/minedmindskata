@@ -3,10 +3,11 @@ until counter >=101
 	if counter == 3
 		puts "mined"
 	elsif counter % 3 ==0
-		puts "mined"
+		puts "mined minds"
 	elsif counter == 5
 		puts "minds"
 	elsif counter % 5 ==0
+		puts "mined minds"
 		
 	else 
 		puts counter 
