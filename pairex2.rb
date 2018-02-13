@@ -1,4 +1,4 @@
-def subraction(number, other)
-	number - other
+def devision(number, other)
+	number / other
 end
- puts subraction(170 , 520)
+ puts devision(170 , 520)
