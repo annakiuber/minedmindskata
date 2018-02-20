@@ -1,4 +1,7 @@
-def devision(number, other)
-	number / other
+#addition
+def addition(number, other)
+	number + other  
 end
- puts devision(170 , 520)
+
+puts devision(25, 32)
+puts devision(87 , 98)
