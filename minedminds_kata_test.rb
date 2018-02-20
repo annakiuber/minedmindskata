@@ -1,5 +1,5 @@
 require "minitest/autorun"
-require_relative "classtest1b.rb"
+require_relative "minedminds_kata_function"
 
 class Devision_test < Minitest::Test 
 	def test_practice_equals_1
