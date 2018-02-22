@@ -18,4 +18,7 @@ class Addition_test < Minitest::Test
 		# m_array = minedminds_array()
 		assert_equal("mined", minedminds_array(3))
 	end
+	def test_4equals_4
+		assert_equal(4,4)
+	end
 end
