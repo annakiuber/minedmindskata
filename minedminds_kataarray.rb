@@ -15,6 +15,7 @@ def minedminds_array(counter)
 	end
 	
 end
+def arraysarefun()
 	anna = []
 	counter = 1
 	until counter >= 101
@@ -23,5 +24,6 @@ end
 
 		counter = counter + 1
 	end
-	print anna
+	return anna
+end
 	# # anna
