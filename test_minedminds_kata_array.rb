@@ -24,5 +24,8 @@ class Addition_test < Minitest::Test
 	def test_5equals_minds
 		assert_equal("minds", minedminds_array(5))
 	end
+	def test_4returns_string_of_four
+		assert_equal(4, minedminds_array(4))
+	end
 
 end
