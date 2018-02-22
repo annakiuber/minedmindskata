@@ -29,6 +29,10 @@ class Devision_test < Minitest::Test
 	def test_90_returns_minedminds
 		assert_equal("minedminds", minedminds(90))
 	end
+
+	def test_84__returns_mined
+		assert_equal("mined", minedminds(84))
+	end
 end
 
 
