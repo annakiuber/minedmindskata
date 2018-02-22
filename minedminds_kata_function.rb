@@ -2,15 +2,16 @@
 counter = 1
 until >= 101
 	if x % 5 ==0 && x % 3 == 0
-		prints "minedminds"
+		return "minedminds"
+
 	elsif x % 5 == 0
-		prints "minds"
+		return "minds"
 	elsif x % 3 == 0
 		return "mined"
-	else put
+	else return x
 		
 	end
 end
-counter = counter +1
+counter = counter + 1
 
-# number = minedminds.
+number = minedminds.
