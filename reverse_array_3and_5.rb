@@ -3,7 +3,7 @@ def reverseminedmindskata()
 	array.map! do |num|
 		if num % 3 == 0
 			num = "mined"
-		elsif num == 5
+		elsif num % 5 == 0
 			num = "minds"
 		else 
 			num
