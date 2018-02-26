@@ -46,4 +46,8 @@ class Test_reverse_array < Minitest::Test
 		m_array = reverseminedmindskata
 		assert_equal("mined minds", m_array[14])
 	end
+	def test_for_30_is_minedminds
+		m_array = reverseminedmindskata
+		assert_equal("mined minds", m_array[29])
+	end
 end
