@@ -22,4 +22,16 @@ class Test_reverse_array < Minitest::Test
 		m_array = reverseminedmindskata()
 		assert_equal(14, m_array[13])
 	end
+	def test_for_index_2_is_mined
+		m_array = reverseminedmindskata()
+		assert_equal("mined", m_array[2])
+	end
+	def test_for_6_is_mined
+		m_array = reverseminedmindskata
+		assert_equal("mined", m_array[5])
+	end
+	def test_for_9_is_mined
+		m_array = reverseminedmindskata
+		assert_equal("mined", m_array[8])
+	end
 end
