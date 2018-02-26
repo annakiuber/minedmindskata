@@ -10,4 +10,16 @@ class Test_reverse_array < Minitest::Test
 		m_array = reverseminedmindskata()
 		assert_equal(100, m_array.length)
 	end
+	def test_for_index_0_is_1
+	 	m_array = reverseminedmindskata()
+	 	assert_equal(1, m_array[0])
+	end
+	def test_for_index_6_is_7
+		m_array = reverseminedmindskata()
+		assert_equal(7, m_array[6])
+	end
+	def test_for_index_13_is_14
+		m_array = reverseminedmindskata()
+		assert_equal(14, m_array[13])
+	end
 end
