@@ -19,7 +19,16 @@ def off_by_one(my_ticket, winning_array)
 
 	end
 	close_array
-
-
 end
+
+def winner(my_ticket, winning_array)
+	winningticket = []
+	winning_array.each do |element| 
+		if string(my_ticket, element) == 4
+		winningticket.push(element)
+		end
+	end
+	return winningticket
+end
+
 
