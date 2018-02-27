@@ -22,11 +22,20 @@ class Addition_test < Minitest::Test
 		assert_equal(4, number)
 	end
 
+	def test__three_numbers
+		num1 = "1234"
+		num2 = "1239"
+		number = off_by_one(num1, num2)
+		assert_equal(3, number)
+	end
 
-	# def test_one_matches_one
-	# 	x = "1" 
-	# 	y = "1"
-	# 	number_test = off_by_one(num1, num2)
-	# 	assert_equal(boolean, number.class)
-	# end
+	def test_winning_returns_2
+		my_ticket = "1234"
+		winning_array = ["1234", "1239"]
+		number = stupid(my_ticket, winning_array)
+		assert_equal(["1239"], number)
+	end
+
+
+	
 end

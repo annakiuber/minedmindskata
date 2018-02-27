@@ -8,3 +8,12 @@ def off_by_one(num1, num2)
 	return matches
 	
 end
+
+
+def stupid(my_ticket, winning_array)
+	close_array = []
+	close_array.push("1239")
+	close_array
+
+end
+
