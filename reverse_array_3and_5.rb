@@ -11,5 +11,6 @@ def reverseminedmindskata()
 			num
 		end
 	end
-	array
+	 array
 end
+# puts reverseminedmindskata

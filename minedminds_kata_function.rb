@@ -12,6 +12,6 @@ until >= 101
 		
 	end
 end
-counter = counter + 1
+
 
 number = minedminds.
