@@ -64,4 +64,11 @@ class Addition_test < Minitest::Test
 		assert_equal(2, number.length) 
 		
 	end
+
+	# def test_for_off_numbers
+	# 	my_ticket = "1234"
+	# 	winning_array = ["1234", "5678", "34567", "1234"]
+	# 	number = winner(my_ticket, winning_array)
+	# 	assert_includes("1234", number)
+	# end
 end
