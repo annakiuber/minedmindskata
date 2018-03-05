@@ -6,4 +6,8 @@ class Pairing_gen_test < Minitest::Test
 	 def test_1_equals_1
 		assert_equal(1,1)
 	end
+
+	def test_pair_of_two
+		assert_equal(1, annas_pairing_app(["BobbySue", "BillyJoeBob"]).size)
+	end
 end
