@@ -14,4 +14,8 @@ class Pairing_gen_test < Minitest::Test
 	def test_pair_of_4
 		assert_equal(2, annas_pairing_app(["Rick", "Morty", "Scott", "Smelly Scott"]).size)
 	end
+
+	def test_pair_of_2_odd
+		assert_equal(1, annas_pairing_app(["RickyBobby", "Will Ferrel", "Leonard Skinnerd"]).size)
+	end
 end
