@@ -6,7 +6,7 @@ class Join_method < Minitest::Test
 	def test_boulean
 	 	assert_equal(true, true)
 	end
-	def test_array
-		assert_equal(Array, myarray())
+	def test_string
+		assert_equal(String, no__dot_join_array.class)
 	end
 end
