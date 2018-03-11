@@ -1,8 +1,8 @@
 #were taking an empty array, and converting to string without .join
-def no__dot_join_array
-	myarray = []
+def no__dot_join_array(array)#had to set argument
+	array
 	mystring = ""
-	myarray.each{ |word| mystring << "#{word}, "}
+	array.each{ |word| mystring << "#{word}, "}
 	mystring
 	mystring.chop.chop
 end
