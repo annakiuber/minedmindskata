@@ -1,7 +1,7 @@
 require "minitest/autorun"
 require_relative "scottandannas_join_app.rb"
 
-class Join_method < Minitest::Test
+class No__dot_join_array < Minitest::Test
 
 	def test_boulean
 	 	assert_equal(true, true)
@@ -14,4 +14,10 @@ class Join_method < Minitest::Test
 		array = ["HAHAHA", "I", "Converted", "a" , "string", "with" , "no" , "dot", "join"]
 		assert_equal("HAHAHA, I, Converted, a, string, with, no, dot, join", no__dot_join_array(array))
 	end
+
+	def test_join_2
+		array = ["a", "b", "c"]
+		assert_equal("a, b, c", no__dot_join_array(array))
+	end
+
 end
