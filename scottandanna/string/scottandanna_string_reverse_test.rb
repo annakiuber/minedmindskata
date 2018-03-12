@@ -7,7 +7,7 @@ class Reverse_my_string< Minitest::Test
 	 	assert_equal(true, true)
 	end
 
-	def test_for_array
-		assert_equal(Array, reverse_my_string.class)
+	def test_for_string
+		assert_equal(String, reverse_my_string.class)
 	end
 end
