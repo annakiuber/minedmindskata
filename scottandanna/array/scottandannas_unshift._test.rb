@@ -13,4 +13,16 @@ class No_unshift_array < Minitest::Test
 	def test_unshift
 		assert_equal(["0", "1", "2", "3", "4"], no_unshift_array("0"))
 	end
+
+	def test_unshift2
+		assert_equal(["3", "1", "2", "3", "4"], no_unshift_array("3"))
+	end
+
+	def test_unshift3
+		assert_equal(["18", "1", "2", "3", "4"], no_unshift_array("18"))
+	end
+
+	def test_unshift4
+		assert_equal(["22", "1", "2", "3", "4"], no_unshift_array("22"))
+	end
 end
