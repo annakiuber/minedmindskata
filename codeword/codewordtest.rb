@@ -16,4 +16,13 @@ class Reverse_my_string< Minitest::Test
 		code = codeword(404)
 		assert_equal("page not found.", code)
 	end
+
+	def test_1942_error
+		code = codeword(1942)
+		assert_equal("grandpa was found", code)
+	end
+	def test_402_error
+		code = codeword(402)
+		assert_equal("page almost found", code)
+	end
 end

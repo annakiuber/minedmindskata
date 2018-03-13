@@ -4,5 +4,6 @@ def no__dot_join_array(array)#had to set argument
 	mystring = ""
 	array.each{ |word| mystring << "#{word}, "}
 	mystring
-	mystring.chop.chop
+	mystring.chop
 end
+p no__dot_join_array(["fun", "with", "strings"])
