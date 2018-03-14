@@ -28,6 +28,10 @@ def plural_hash(coins)
 			coin_plural["quarters"] = value
 			elsif key == "dime"
 				coin_plural["dimes"] = value
+			elsif key == "nickle"
+				coin_plural["nickles"] = value
+			elsif key == "penny"
+				coin_plural["pennies"] = value
 				
 			end
 		end

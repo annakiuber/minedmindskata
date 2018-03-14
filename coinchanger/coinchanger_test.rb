@@ -55,4 +55,8 @@ class Coinchanger_test< Minitest::Test
 		hashtest = {"dime" => 2}
 		assert_equal({"dimes" => 2}, plural_hash(hashtest))
 	end
+	def test_for_all_plural
+		hashtest = {"quarter" => 2, "dime" => 2, "nickle" => 2, "penny" => 2 }
+		assert_equal({"quarters" => 2, "dimes" => 2, "nickles" => 2, "pennies" =>2}, plural_hash(hashtest))
+	end
 end
