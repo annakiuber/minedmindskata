@@ -3,7 +3,7 @@ def coinchanger_app(cents)
 	if cents >= 25
 		coins["quarter"] = cents / 25
 		cents = cents % 25
-	end
+	end   
 	if cents >= 10
 		coins["dime"] = cents / 10
 		cents = cents % 10
@@ -16,6 +16,16 @@ def coinchanger_app(cents)
 	 if cents >= 1 
 		coins["penny"] = cents
 	end
+
 	coins
 
 end
+def plural_hash(coins)
+	coin_plural = {}
+	coins.each{|key,value|
+		if value > 1
+			coin_plural["quarters"] = value
+		end
+	}
+	return coin_plural
+	end
