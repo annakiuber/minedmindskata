@@ -24,8 +24,13 @@ def plural_hash(coins)
 	coin_plural = {}
 	coins.each{|key,value|
 		if value > 1
+			if key == "quarter"
 			coin_plural["quarters"] = value
+			elsif key == "dime"
+				coin_plural["dimes"] = value
+				
+			end
 		end
 	}
 	return coin_plural
-	end
+end
